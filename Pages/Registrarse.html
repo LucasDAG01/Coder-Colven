@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/StyleColven.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100;400;800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> 
+    <title>Registrarse</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="logo" src="../Imagenes/Logo.jpg" alt="colvenlogo" />
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <li><a class="nav__link" href="../index.html"> Inicio</a></li>
+                </li>
+                <li class="nav__item">
+                  <li><a class="nav__link" href="Nosotros.html"> Nosotros</a></li>
+                </li>
+                <li class="nav__item">
+                  <li><a class="nav__link" href="Productos.html"> Productos</a></li>
+                </li>
+                <li class="nav__item">
+                  <li><a class="nav__link" href="RRHH.html"> RRHH</a></li>
+                </li>
+                <li class="nav__item">
+                  <li><a class="nav__link" href="Registrarse.html"> Registrarse</a></li>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!--agregar info si necesito aca-->
+      <div class="conteiner">
+        <div class="row">
+        <h1> Registrarse</h1>
+        </div>
+      <div class="row">
+        <div class="col">
+          <form action="" class="registro">
+            <label for="Nombre">Nombre:</label>
+            <input
+              type="text"
+              name="Nombre"
+              placeholder="Nombre completo"
+              id="Nombre"
+              required
+            />
+            <br />
+            <label for="Email">Email:</label>
+            <input
+              type="Email"
+              name="Email"
+              placeholder="escriba su Email"
+              id="Email"
+              required
+            />
+            <br />
+            <label for="Password">Password:</label>
+            <input
+              type="Password"
+              name="Password"
+              placeholder="Password"
+              id="Pass"
+              required
+            />
+            <br />
+            <h3>¿Quiere que nos comuniquemos con usted?</h3>
+            <div>
+              Si
+              <input type="radio" name="comuniarse" value="comuniarse" />
+              No
+              <input type="radio" name="comuniarse" value="comuniarse" />
+            </div>
+            <br />
+            <label for="">Vehiculo</label>
+            <select name="Vehiculo" id="Vehiculo" required>
+              <option value="Camion">Camion</option>
+              <option value="Auto">Auto</option>
+              <option value="Utilitario">Utilitario</option>
+            </select>
+            <br />
+            <br />
+            <div>Acepta los terminos y condiciones?</div>
+            <input type="checkbox" name="Acepta" value="1" required />
+            <br />
+            <br />
+            <label for="Mensaje">Mensaje: </label>
+            <br />
+            <textarea
+              name="Mensaje"
+              id="Mensaje"
+              placeholder="Dejenos un Mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+          </fieldset>
+        </form>
+        </div>
+      </div>
+    </main>
+    <section class="ad">
+      <p>Aca va la publicidad</p>
+    </section>
+    <footer class="footer">
+      <div class="conteiner">
+        <div class="row footer__Text">
+          <p>
+            Copyright © 2022, Colven Argentina. El uso de este sitio web implica
+            la aceptación de los Términos y Condiciones y de las Políticas de
+            Privacidad de Colven Argentina. Las fotos son a modo ilustrativo. La
+            venta de cualquiera de los productos publicados está sujeta a la
+            verificación de stock. Los precios online para los productos
+            presentados/publicados en https://colven.com.ar son válidos
+            exclusivamente para la compra vía internet en las páginas antes
+            mencionadas.
+          </p>
+        </div>
+        <div class="row footer__Social">
+              <!--agregar redes sociales-->
+        </div>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>
