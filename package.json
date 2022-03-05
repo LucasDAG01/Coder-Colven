@@ -1,0 +1,23 @@
+{
+  "name": "proyectoenbootstrap",
+  "version": "1.0.0",
+  "description": "![Screenshoot](https://github.com/LucasDAG01/Coder-Colven/blob/main/Imagenes/Captura%20de%20pantalla%20presentacion.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasDAG01/Coder-Colven.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasDAG01/Coder-Colven/issues"
+  },
+  "homepage": "https://github.com/LucasDAG01/Coder-Colven#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
