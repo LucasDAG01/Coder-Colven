@@ -1,6 +1,6 @@
 h1 {
   text-shadow: 2px 2px 4px #000000;
-  color: white;
+  color: $titulo;
   text-transform: uppercase;
   text-align: center;
 }
@@ -8,13 +8,13 @@ h1 {
   color: #049dd9;
 }
 h2 {
-  color: white;
+  color: $titulo;
   text-shadow: 1px 1px 1px #000000;
   text-align: center;
 }
 h3 {
   font-weight: 400;
-  color: white;
+  color: $titulo;
 }
 h4,
 h5 {
