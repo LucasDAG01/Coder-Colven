@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="desciption" content="Un proyecto para el curso de programacion web en CODERHOUSE">
-    <meta name="keywords" content="Protector motor, Gps satelital, Campo, Cubiertas, proyectoColven, proyectoVigia, proyectoCoblow, proyectoGestya, proyectoRentrago, proyectoViesa, proyectoVitran, proyectoVoryl">
+    <meta name="keywords" content="Protector motor, Gps satelital, Campo, Cubiertas, Colven, Vigia, Coblow, Gestya, Viesa, Vitran, Voryl">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,43 +16,68 @@
   <body class="body">
     <header class="header">
       <div class="container">
-        <nav class="nav">
-          <nav class="navbar navbar-expand-lg sticky-top text-uppercase text-decoration-none navbar navbar-dark ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img class="logo" src="../Imagenes/Logo.jpg" alt="colvenlogo" /></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html"> Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Nosotros.html"> Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Productos.html"> Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="RRHH.html"> RRHH</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Registrarse.html"> Registrarse</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
-                  <button class="btn btn-outline-light" type="submit" style="background-color: #05aff2;">Buscar</button>
-                </form>
-              </div>
+        <nav
+          class="navbar navbar-expand-lg sticky-top text-uppercase text-decoration-none navbar navbar-dark"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <img class="logo" src="../Imagenes/Logo.jpg" alt="colvenlogo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="../"> Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="Nosotros.html"> Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Productos.html"> Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="RRHH.html"> RRHH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Registrarse.html"> Registrarse</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Busqueda"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-light"
+                  type="submit"
+                  style="background-color: #05aff2"
+                >
+                  Buscar
+                </button>
+              </form>
             </div>
-          </nav>
+          </div>
+        </nav>
     </div>
     </header>
     <main class="main">
-      <!--agregar info si necesito aca-->
-      <div class="conteiner">
+      <div class="container">
         <div class="row">
           <div class="col-sm-8">
             <h1 class="display-4"><strong>RRHH</strong></h1>
@@ -87,6 +112,7 @@
               </div>
             <div class="row">
               <div class="col-sm-3">
+                  <!--formulario CV-->
                 <form action="" class="form">
                   <div class="row">
                     <label for="Nombre">Nombre:</label>
@@ -129,15 +155,11 @@
               </div>
           </section>
             </div>
-
-
         </div>
-        
     </div>
   </main>
-
     <footer class="footer">
-      <div class="conteiner">
+      <div class="container">
         <div class="row footer__Text">
           <p>
             Copyright © 2022, Colven Argentina. El uso de este sitio web implica
@@ -151,8 +173,7 @@
           </p>
         </div>
       </div>
-      </div>
     </footer>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
   </body>
 </html>
